@@ -34,6 +34,11 @@ public class Document {
     }
 
 
+    public void effacer(int start, int end) {
+        String remplacement ="";
+        remplacer(start,end,remplacement);
+    }
+
     @Override
     public String toString() {
         return this.texte;
