@@ -2,6 +2,10 @@ package fr.iut.editeur.commande;
 
 import fr.iut.editeur.document.Document;
 
+/**
+ * Cree la commande qui pourra etre utilise pour effacer du texte dans le document
+ * @author milhauj
+ */
 public class CommandeEffacer extends CommandeDocument{
     public CommandeEffacer(Document document, String[] parameters) {
         super(document, parameters);

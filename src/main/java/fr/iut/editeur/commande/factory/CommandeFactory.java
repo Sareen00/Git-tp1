@@ -3,8 +3,15 @@ package fr.iut.editeur.commande.factory;
 import fr.iut.editeur.commande.*;
 import fr.iut.editeur.document.Document;
 
+/**
+ *
+ * Repertorie toutes les commande en fonciton de l'input de l'utilisateur
+ */
 public class CommandeFactory {
 
+    /**
+     * Constructeur
+     */
     private static CommandeFactory instance;
 
     public static CommandeFactory getInstance() {
